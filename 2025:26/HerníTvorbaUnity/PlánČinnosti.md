@@ -23,8 +23,11 @@ Cílem kroužku je seznámit účastníky se světem herního vývoje a provést
 **Září: Seznámení a úvod do Unity**
 - Seznámení s náplní kroužku a cíli.
 - Co je herní vývoj? Ukázky slavných her vytvořených v Unity.
+- Minecraft aktivita: otevřít Creative svět (připravený dopředu nebo vytvořený na místě) se třemi scénami – plošina pro vysvětlení voxelů, sekce se světelnými zdroji (torch, glowstone) a malý domek pro práci s materiály; studenti hledají paralely k Unity Mesh/Material/Light komponentám.
 - Instalace Unity a potřebných nástrojů (Rider/VS Code).
 - První kroky v Unity: seznámení s rozhraním, práce s objekty, scény.
+- Krátká ochutnávka Roblox Studio jako alternativního enginu a porovnání rozdílů v cílových projektech i publiku.
+- Bonus (pokud zbude čas): Roblox Studio – společně sestavit jednoduchý obby, ukázat strukturu Explorer/Properties, porovnat skriptování v Lua vs. C# a diskutovat rozdíly v publikování (Roblox Marketplace vs. Unity buildy).
 
 **Říjen: Základy programování v C#**
 - Co je programování? Základní principy (algoritmy, logika).
@@ -47,6 +50,7 @@ Cílem kroužku je seznámit účastníky se světem herního vývoje a provést
 - Rozdíly mezi 2D a 3D vývojem.
 - Práce s 3D modely, materiály a texturami.
 - Nastavení kamery a osvětlení v 3D scéně.
+- Minecraft aktivita: analyzovat chunkové vykreslování (F3), s redstone hodinami sledovat aktualizace a diskutovat, jak Unity řeší culling, LOD a optimalizaci světel; případně připravit shader pack a porovnat výkon.
 
 **Únor: Tvorba první 3D hry**
 - Tvorba jednoduché 3D hry (např. FPS, sbírání předmětů).
@@ -62,6 +66,7 @@ Cílem kroužku je seznámit účastníky se světem herního vývoje a provést
 - Principy návrhu zábavných herních úrovní.
 - Plánování a stavba vlastních levelů (2D i 3D).
 - Testování a ladění hratelnosti.
+- Minecraft aktivita: rozdělit skupinu do dvojic, v Creative módu během 20 minut navrhnout malý level (start, výzva, odměna), udělat screenshoty a v Unity je přetvořit pomocí ProBuilderu – zaměřit se na měřítko a vedení hráče.
 
 **Květen: Finální projekt**
 - Brainstorming a návrh vlastního herního projektu.
@@ -84,6 +89,7 @@ Výuka bude probíhat kombinací několika metod s důrazem na praktickou činno
 - **Spolupráce a diskuze:** Podpora vzájemné pomoci a sdílení nápadů.
 - **Prezentace:** Účastníci budou pravidelně prezentovat své výtvory.
 - **Individuální přístup:** Možnost volby mezi programováním v C# a vizuálním skriptováním dle preferencí účastníka.
+- **Srovnávací ukázky:** Krátké demonstrace Minecraftu a Robloxu pro porovnání různých přístupů k renderování, level designu a enginům.
 
 ---
 

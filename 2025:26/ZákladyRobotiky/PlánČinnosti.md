@@ -21,21 +21,25 @@ Cílem kroužku je seznámit účastníky se světem robotiky a elektrotechniky 
 - **Seznámení se základy elektrotechniky:** Co je elektřina, napětí (U), proud (I), odpor (R). Analogie s vodou pro lepší pochopení.
 - **Práce s bezpečností:** Pochopení nebezpečí elektřiny, rozdíl mezi bezpečným a nebezpečným napětím, základní bezpečnostní pravidla.
 - **Práce se schématy:** Co je schéma obvodu, základní elektronické symboly, čtení a kreslení prvních jednoduchých schémat.
+- **Herní analogie:** V Creative superflat světě předvést tři mini-scény – redstone lampy napájené pákou (konstantní zdroj), tlačítkem (pulz) a tlakovou deskou (senzor); studenti hledají analogie k baterii, vodiči a spotřebiči a zapisují je do tabulky.
 
 **Říjen:**
 - **Práce v simulátoru Falstad:** Praktické pochopení funkce baterie, rezistoru a LED. Tvorba prvních virtuálních obvodů.
 - **Seznámení s Arduinem:** Co je mikrokontrolér, přehled součástek (senzory, motory), rozdíl mezi digitálním a analogovým signálem.
 - **Seznámení se simulátorem Tinkercad Circuits:** Orientace v rozhraní, práce s nepájivým polem, propojování komponent.
+- **Most mezi hrou a realitou:** Rozebrat redstone obvod "páka – repeater – železné dveře", překreslit jej do schématu (spínač, zdroj, elektromagnet) a nasimulovat ve Falstadu s relé; studenti vyplní pracovní list s porovnáním prvků.
 
 **Listopad:**
 - **Práce s obvody v Tinkercadu:** Sestavení prvního obvodu (LED + rezistor), experimentování s hodnotami rezistorů a jejich vlivem na svit LED.
 - **Měření v simulaci:** Použití virtuálního multimetru pro měření napětí a proudu, ověření Ohmova zákona v praxi.
 - **Seznámení s logickými obvody:** Práce s tlačítky a spínači, pochopení konceptu logických stavů (0/1), série a paralelní zapojení.
+- **Redstone workshop:** Týmy staví v Minecraftu logické brány (AND, OR, XOR), pořizují screenshoty vrstev a kroků; v Tinkercadu obvod nahrazují tlačítky, tranzistory a LED, výsledek prezentují ostatním i s časomírou.
 
 **Prosinec:**
 - **Seznámení s programováním Arduina:** Základní struktura kódu (setup, loop), ovládání digitálních výstupů, funkce pro časování.
 - **Nácvik programování:** Vytvoření prvního programu – blikání LED. Experimenty s rytmem a rychlostí.
 - **Projekt "Blikátko":** Návrh a implementace interaktivního blikátka s více LED a tlačítkem pro přepínání módů.
+- **Inspirace z Minecraftu:** V Minecraftu nastavit redstone clock s repeaterem, stopovat délku pulzu (počítání tiků) a následně v Arduinu napsat časovač pomocí `millis()`; studenti srovnají přesnost, stabilitu a možnosti úprav.
 
 **Leden:**
 - **Nácvik programovací logiky:** Vysvětlení a použití proměnných a podmínek (if-else) pro tvorbu inteligentnějších programů.
@@ -76,6 +80,7 @@ Cílem kroužku je seznámit účastníky se světem robotiky a elektrotechniky 
 - **Brainstorming a diskuse:** Podpora kreativního myšlení a aktivního zapojení při hledání nápadů a řešení problémů.
 - **Samostatná i skupinová práce:** Střídání individuální implementace s párovým testováním a vzájemnou pomocí.
 - **Prezentace:** Účastníci se učí prezentovat výsledky své práce, což rozvíjí jejich komunikační dovednosti.
+- **Gamifikace:** Začlenit 10min "Redstone Challenge" – zadat úkol (např. automatické dveře se senzorem, alarm s resetem), studenti nejprve navrhnou řešení v Minecraftu a následně ho přenesou do Tinkercadu nebo Arduino kódu.
 
 ## 4. Klíčové kompetence, tj. jaké klíčové kompetence účastník získá
 
