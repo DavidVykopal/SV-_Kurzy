@@ -34,6 +34,41 @@ Cílem kroužku je seznámit účastníky se světem herního vývoje a provést
 - Proměnné, datové typy, podmínky (if/else), cykly (for/while).
 - Tvorba prvních jednoduchých skriptů pro ovládání objektů ve hře.
 
+#### Říjen – rozpis 4 lekcí
+
+- Lekce 1: Instalace, první spuštění a ukázky enginů
+  - Cíle: Vyzkoušet instalace potřebného softwaru; otevřít Unity i Roblox; základní orientace v prostředí; nastavit očekávání a cíle.
+  - Aktivity:
+    - Vyzkoušet instalace potřebného softwaru (Unity Hub + LTS, VS Code/Rider).
+    - Otevřít Unity a ukázat, jak funguje (rozhraní, scény, Play/Stop, Hierarchy/Inspector).
+    - Otevřít Roblox Studio a ukázat, jak funguje (Explorer, Properties, jednoduchý obby pro porovnání se scénou v Unity).
+  - Materiály: PC s internetem, Unity Hub installer, Roblox Studio, projektor.
+  - Domácí úkol: Spustit doma Unity/Roblox a udělat screenshot svého prvního projektu.
+
+- Lekce 2: „Vibe coded“ terminal games
+  - Cíle: Zažít rychlé prototypování miniher v terminálu; procvičit proměnné, podmínky a cykly na malém projektu.
+  - Aktivity:
+    - Společně naprogramovat 1–2 jednoduché terminálové mini‑hry (např. Hádej číslo, klikačka na čas).
+    - Krátká diskuze o herní smyčce, vstupu od hráče a zpětné vazbě.
+  - Materiály: Editor kódu, terminál.
+  - Domácí úkol: Dopsat vlastní variantu mini‑hry a přinést ukázku.
+
+- Lekce 3: „Vibe coded“ web games
+  - Cíle: Ukázat, jak rychle vznikne malá webová hra; pochopit vstup, vykreslení a správu stavu.
+  - Aktivity:
+    - Vytvořit drobnou webovou mini‑hru (např. reakční hra) a spustit ji lokálně v prohlížeči.
+    - Krátké srovnání web vs. Unity/Roblox – kdy který přístup dává smysl.
+  - Materiály: Prohlížeč, editor kódu.
+  - Domácí úkol: Přidat skóre/časovač a poslat link/screenshot.
+
+- Lekce 4: Společné hraní a analýza her
+  - Cíle: Analyzovat hry, typy a enginy; chápat přístupy Game as Product/Service/Platform.
+  - Aktivity:
+    - Vyzkoušet si některé hry společně a rozebrat mechaniky, cílové publikum a monetizaci.
+    - Porovnání Unity, Robloxu a webu podle cíle projektu, publika a distribuční cesty.
+  - Materiály: Výběr her, projektor, tabule.
+  - Domácí úkol: Napsat krátkou analýzu oblíbené hry (mechaniky, cíle, engine/technologie).
+
 **Listopad: Tvorba první 2D hry (plošinovka)**
 - Práce s 2D grafikou (sprity).
 - Fyzika ve 2D světě.

@@ -29,6 +29,32 @@ Cílem kroužku je seznámit účastníky se světem robotiky a elektrotechniky 
 - **Seznámení se simulátorem Tinkercad Circuits:** Orientace v rozhraní, práce s nepájivým polem, propojování komponent.
 - **Most mezi hrou a realitou:** Rozebrat redstone obvod "páka – repeater – železné dveře", překreslit jej do schématu (spínač, zdroj, elektromagnet) a nasimulovat ve Falstadu s relé; studenti vyplní pracovní list s porovnáním prvků.
 
+### Říjen – rozpis 4 lekcí
+
+- Lekce 1: Minecraft Redstone – základy a analogie
+  - Cíle: Pochopit základní principy redstone jako herní analogie elektrotechniky.
+  - Aktivity: Vytvořit jednoduché obvody (páka → lampa, tlačítko → dveře, tlaková deska → alarm); vysvětlit proudění „signálu“, zpoždění repeaterů a analogii k elektrickým prvkům.
+  - Materiály: Minecraft (Creative), připravený svět, projektor.
+  - Domácí úkol: Postavit vlastní redstone mechanismus a přinést screenshot.
+
+- Lekce 2: Roblox Circuit Maker 2 – vizuální stavba obvodů
+  - Cíle: Ukázat principy obvodů v interaktivní hře, propojit s realitou.
+  - Aktivity: Společně projít tutorial v Roblox Circuit Maker 2, postavit logickou bránu a jednoduchý řetězec s časováním.
+  - Materiály: Roblox účet, hra Circuit Maker 2, projektor.
+  - Domácí úkol: Dokončit alespoň dva levely doma a přinést poznámky, co bylo nejtěžší.
+
+- Lekce 3: Tinkercad Circuits – první simulace
+  - Cíle: Seznámit se s Tinkercad prostředím a simulací elektroniky.
+  - Aktivity: Vytvořit obvod LED + rezistor na nepájivém poli, vyzkoušet různé hodnoty rezistoru, použít virtuální multimetr; blokové programování Arduina pro blikání.
+  - Materiály: Tinkercad účty, pracovní list s otázkami.
+  - Domácí úkol: Uložit a sdílet odkaz na svůj obvod.
+
+- Lekce 4: Arduino – ukázková sada a bezpečnost
+  - Cíle: Fyzicky si osahat komponenty, pochopit bezpečné zapojování.
+  - Aktivity: Přinést a ukázat Arduino sadu, pojmenovat součástky (UNO, breadboard, rezistory, LED, tlačítko, senzory), ukázat základní zapojení LED + rezistor; projít bezpečnostní zásady.
+  - Materiály: Arduino sada, napájení, kabely, ukázkové komponenty.
+  - Domácí úkol: Vybrat si mini‑projekt na listopad (např. semafor, tlačítkový zámek) a napsat krátký popis.
+
 **Listopad:**
 - **Práce s obvody v Tinkercadu:** Sestavení prvního obvodu (LED + rezistor), experimentování s hodnotami rezistorů a jejich vlivem na svit LED.
 - **Měření v simulaci:** Použití virtuálního multimetru pro měření napětí a proudu, ověření Ohmova zákona v praxi.
