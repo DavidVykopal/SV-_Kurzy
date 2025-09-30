@@ -8,9 +8,9 @@
 - Projektor, checklist úkolů.
 
 ## Průběh hodiny (45–60 min)
-1. Tutorial a ovládání (10 min)
-2. Úkoly: postavit logickou bránu, řetězec s časováním (20–25 min)
-3. Reflexe: kde je vstup, výstup, napájení? (5–10 min)
+1. **Tutorial a ovládání** (10 min)
+2. **Úkoly: postavit logickou bránu, řetězec s časováním** (20–25 min)
+3. **Reflexe: kde je vstup, výstup, napájení?** (5–10 min)
 
 ## Domácí úkol
 - Dokončit alespoň dva levely doma a přinést poznámky, co bylo nejtěžší.
