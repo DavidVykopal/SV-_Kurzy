@@ -35,12 +35,6 @@
 - **Blender** (3D)
 - **Minecraft: Java**
 
-## Před hodinou (příprava lektora)
-- Stáhnout předem instalátory (Unity Hub, případně Roblox Studio) a mít je na USB jako zálohu.
-- Ověřit práva k instalaci a zápisu na disk.
-- Připravit seznam přístupových údajů/účtů a postupy obnovy hesla.
-- Připravit ukázkový Unity projekt (2D Core) a jednoduchý template v Robloxu (obby).
-
 ## Průběh hodiny (45–60 min)
 1. **Přivítání a cíle** (3 min)
 2. **Přihlášení do účtů** (7–10 min)
@@ -58,5 +52,3 @@
 ## Domácí úkol
 - Doma spustit Unity/Roblox a udělat screenshot prvního projektu/obby.
 - Přinést příště tip na hru, kterou byste rádi krátce rozebrali.
-
-
