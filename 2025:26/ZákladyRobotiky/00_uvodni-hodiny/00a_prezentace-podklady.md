@@ -9,10 +9,11 @@
 - **Lektor**: [Jméno]
 
 ### Slide 2: Cíle hodiny
-- Založit/přihlásit účty do Tinkercad, Roblox a Minecraft
-- Ověřit přístup k simulátorům
-- Na závěr si krátce něco zahrát/ukázat
-- Pochopit základy elektrotechniky a programování
+- Seznámit se s nástroji pro simulaci elektroniky (Tinkercad, Roblox)
+- Pochopit základní pojmy elektrotechniky (napětí, proud, odpor)
+- Vidět demonstraci práce s Arduino simulátorem
+- Získat přehled o bezpečnostních zásadách
+- Na závěr společné hraní a reflexe
 
 ### Slide 3: Účty - checklist
 - **Google účet**: primární (SSO pro většinu služeb)
@@ -32,42 +33,45 @@
 - **Minecraft** (Java/Education) – volitelně pro redstone aktivity
 - **Arduino IDE** – pro programování mikrokontrolérů
 
-### Slide 6: Přihlášení a ověření účtů (10-15 min)
-- **Tinkercad**: Autodesk účet přes Google
-- **Roblox**: Vytvoření účtu, ověření emailu
-- **Minecraft**: Volitelně, pokud je k dispozici
-- **Praktická část**: Společné přihlášení
+### Slide 6: Přehled nástrojů a účtů (10-15 min)
+- **Tinkercad**: Webový simulátor, Autodesk účet přes Google SSO
+- **Roblox**: Herní platforma pro Circuit Maker 2
+- **Minecraft**: Volitelně pro redstone aktivity
+- **Demonstrace lektora**: Ukázka přihlášení a rozhraní
+- **Poznámka**: Účty si děti vytvoří později, když to bude prakticky potřeba
 
-### Slide 7: Tinkercad Circuits - první kroky
-- Otevřít Tinkercad Circuits
-- Spustit ukázkový obvod
-- Základní orientace v prostředí
-- **Praktická část**: První obvod
+### Slide 7: Tinkercad Circuits - orientace
+- **Demonstrace lektora**: Otevřít Tinkercad Circuits
+- Ukázat knihovnu komponent (Arduino, LED, rezistory...)
+- Spustit předpřipravený ukázkový obvod (blikající LED)
+- Vysvětlit základní rozhraní (drag & drop, simulace)
 
-### Slide 8: Roblox Circuit Maker 2
-- Ověřit Roblox Studio / hru Circuit Maker 2
-- Základní ovládání hry
-- První level
-- **Praktická část**: První úkol
+### Slide 8: Roblox Circuit Maker 2 - ukázka
+- **Demonstrace lektora**: Spustit hru Circuit Maker 2
+- Ukázat základní ovládání (WASD, myš)
+- Projít první úroveň s vysvětlením logiky
+- **Diskuse**: Jak se herní logika podobá reálným obvodům?
 
-### Slide 9: Krátké ukázky/hraní (10-15 min)
-- **Circuit Maker 2**: Splnit 1-2 jednoduché úkoly
-- **Redstone**: Páka → lampa (pokud Minecraft dostupný)
-- **Tinkercad**: Vytvořit jednoduchý obvod
-- **Praktická část**: Společné hraní
+### Slide 9: Společné sledování a diskuse (10-15 min)
+- **Lektor hraje Circuit Maker 2**: Splnit 1-2 levely
+- Děti navrhují řešení, lektor implementuje
+- **Volitelně Minecraft redstone**: Ukázka páka → lampa
+- **Interaktivní**: Děti komentují a radí
 
-### Slide 10: Základy elektrotechniky
-- **Napětí (V)**: "Tlak" elektřiny
-- **Proud (A)**: Množství elektřiny
-- **Odpor (Ω)**: Brzda pro elektřinu
-- **Vztah**: U = R × I (Ohmův zákon)
+### Slide 10: Základy elektrotechniky - teorie
+- **Napětí (V)**: "Tlak" elektřiny (analogie: tlak vody)
+- **Proud (A)**: Množství elektřiny (analogie: tok vody)
+- **Odpor (Ω)**: Brzda pro elektřinu (analogie: úzká trubka)
+- **Ohmův zákon**: U = R × I
+- **Příklady**: LED potřebuje 2V, Arduino dává 5V → rezistor!
 
-### Slide 11: Základní komponenty
-- **Rezistor**: Omezuje proud
-- **LED**: Světelná dioda
-- **Tlačítko**: Spínač
-- **Breadboard**: Nepájivé pole
-- **Arduino**: Mikrokontrolér
+### Slide 11: Základní komponenty - ukázka
+- **Rezistor**: Omezuje proud (ukázat fyzicky)
+- **LED**: Světelná dioda (ukázat polaritu +/-)
+- **Tlačítko**: Spínač (ukázat funkci)
+- **Breadboard**: Nepájivé pole (vysvětlit řady)
+- **Arduino**: Mikrokontrolér (mozek projektu)
+- **Demonstrace**: Lektor ukazuje každý komponent
 
 ### Slide 12: Bezpečnostní zásady
 - **Nízké napětí**: Arduino 5V je bezpečné
@@ -82,9 +86,12 @@
 - Páka → lampa, tlačítko → dveře
 
 ### Slide 14: Domácí úkol
-- Doma se přihlásit do Tinkercad
-- Uložit prázdný obvod "Můj první obvod"
-- Přinést příště tip na zajímavý redstone mechanismus
+- **Volitelně**: Vytvořit si Tinkercad účet doma
+- **Teoretický úkol**: Nakreslit jednoduchý obvod na papír
+  - Baterie → spínač → LED (s rezistorem)
+  - Označit + a - póly
+- **Volitelně**: Zahrát si Circuit Maker 2 nebo Minecraft redstone
+- Přinést nápady na Arduino projekty
 
 ### Slide 15: Otázky a odpovědi
 - Máte nějaké otázky k účtům?

@@ -1,190 +1,407 @@
-# Blok 1: Úvod do herní tvorby (1–6)
+# Blok 1: Úvod do herní tvorby (1–10)
 
 ## Přehled bloku
-**Cíl:** Uvést děti do světa herní tvorby, seznámit je se základními pojmy a nástroji.
-**Výstup:** Děti pochopí proces vývoje her a vytvoří svůj první jednoduchý projekt v Unity.
+**Cíl:** Ukázat dětem svět herní tvorby skrze live demonstrace a inspirativní ukázky.
+**Výstup:** Děti získají představu o vývoji her a uvidí, co vše je možné vytvořit.
+**Formát:** Demonstrace z Davidovy strany, děti sledují a zapojují se diskuzí.
 
 ---
 
-## Hodina 1: Úvod do herního vývoje (45 minut)
+## Hodina 1: Úvod do herního vývoje + ukázka různých her (45 minut)
 
 ### Cíle hodiny
-- Pochopit, co je herní vývoj a kdo se na něm podílí
-- Poznat různé typy her a žánry
-- Uvědomit si základní fáze vývoje hry
+- Ukázat dětem různé typy her a žánrů
+- Představit proces vývoje her
+- Inspirovat je cool ukázkami
 
 ### Materiály
-- Ukázkové hry na tabletu/PC
-- Obrázky různých herních žánrů
-- Bílá tabule/flipchart
-
-### Průběh hodiny
-
-#### 1. Úvod (10 minut)
-**Aktivita:** Burza nápadů - "Jaké hry znáte?"
-- Děti říkají svoje oblíbené hry
-- Učitel zapisuje na tabuli
-- Kategorizujeme podle platforem (mobil, počítač, konzole)
-
-**Otázky k diskusi:**
-- Co všechno musí hra mít, aby byla zábavná?
-- Kdo podle vás hry vytváří?
-- Jak dlouho asi trvá vytvoření hry?
-
-#### 2. Typy her a žánry (15 minut)
-**Ukázka různých žánrů:**
-- **Plošinovky** (Mario, Sonic)
-- **Závodní hry** (Mario Kart)
-- **Puzzle hry** (Tetris, Monument Valley)
-- **Střílečky z první osoby** (jednoduché příklady pro děti)
-- **Hraní rolí** (Pokémon)
-
-**Interaktivní aktivita:**
-Děti si zahrají 2-3 minuty každý žánr a popíšou rozdíly.
-
-#### 3. Kdo tvoří hry? (10 minut)
-**Role v herním týmu:**
-- **Game Designer** - vymýšlí pravidla a mechaniky
-- **Programátor** - píše kód
-- **Grafik** - tvoří obrázky a modely
-- **Sound Designer** - dělá zvuky a hudbu
-- **Tester** - hledá chyby
-
-**Aktivita:** Děti si vyberou, která role je nejvíc zajímá.
-
-#### 4. Fáze vývoje hry (10 minut)
-1. **Nápad** - co bude hra dělat?
-2. **Prototyp** - rychlá verze k testování
-3. **Vývoj** - programování a tvorba obsahu
-4. **Testování** - hledání chyb
-5. **Vydání** - hra je hotová!
-
-### Domácí úkol
-Najděte doma jednu hru a zkuste určit její žánr a popsat, co ji dělá zábavnou.
+- Projektor/sdílená obrazovka
+- Připravené hry k ukázce (Roblox, Minecraft, + další)
+- Ukázkové videa z vývoje her
 
 ---
 
-## Hodina 2: Herní design – základy (45 minut)
+## 🎮 CO DAVID UKAZUJE (DEMONSTRACE)
 
-### Cíle hodiny
-- Pochopit základní principy herního designu
-- Naučit se, co tvoří dobrou hru
-- Vymyslet vlastní jednoduchou herní mechaniku
+### 1. Úvodní bomba - "Jak vzniká hra?" (5 min)
+**COOL MOMENT:** Pusť časosběrné video vývoje nějaké hry (např. indie hra od prvního nápadu po release)
+- Ukaž, jak se hra mění od jednoduchého prototypu po finální verzi
+- Zdůrazni, že každý může začít jednoduše
 
-### Materiály
-- Papír a tužky
-- Kostky, karty
-- Jednoduché hry k analýze
+### 2. Tour po herních žánrech (20 min)
+**Live ukázky - David hraje a komentuje:**
 
-### Průběh hodiny
+**Roblox hry (10 min):**
+- Ukaž 2-3 různé Roblox hry (plošinovka, závody, simulátor)
+- Během hraní ukazuj: "Tohle je mechanika, kterou si někdo naprogramoval"
+- "Vidíte toho bota? Někdo ho musel naučit chování"
 
-#### 1. Co je herní design? (10 minut)
-**Definice:** Herní design je proces vytváření pravidel, mechanik a obsahu, který hru dělá zábavnou.
+**Minecraft (5 min):**
+- Ukaž redstone mechanismy
+- Krátké video s crazy redstone projekty (počítač v Minecraft!)
 
-**Základní otázky designéra:**
-- Jaký je cíl hry?
-- Jak hráč vyhrává?
-- Co hru dělá náročnou?
-- Co hru dělá zábavnou?
+**Unity hry (5 min):**
+- Ukaż 2-3 známé hry made in Unity (Among Us, Cuphead, Hollow Knight)
+- Zdůrazni: "Všechny tyto hry začaly jako malý projekt jednoho člověka"
 
-#### 2. Základní herní mechaniky (15 minut)
-**Ukázky mechanik:**
-- **Sbírání** (mince v Mario)
-- **Skákání** (překonávání překážek)
-- **Střelba** (ničení nepřátel)
-- **Řešení hádanek** (otevírání dveří klíči)
-- **Závody** (kdo je rychlejší)
+### 3. Za oponou - Jak to funguje (15 min)
+**COOL MOMENT:** Otevři Unity a ukaž "kouzelný moment"
+- Spusť nějakou demo scénu
+- Zmáčkni Play a ukaž běžící hru
+- Zastavíš hru a ukážeš, jak vypadá "zezadu" (objekty, komponenty)
+- "Všechno co vidíte ve hře, jsou jen objekty s pravidly"
 
-**Aktivita:** Hrajeme jednoduché hry a identifikujeme mechaniky.
+**Ukázka změny v reálném čase:**
+- Změň barvu objektu → Play → viditelná změna
+- Změň gravitaci → Play → všechno létá
+- "Tohle je síla game enginu - můžete zkoušet cokoliv!"
 
-#### 3. Pravidla a výzvy (10 minut)
-**Co tvoří dobrou výzvu:**
-- Není moc lehká (nudná)
-- Není moc těžká (frustrující)
-- Je spravedlivá
-- Má jasné pravidla
-
-**Praktický příklad:** Analýza hry "Pexeso"
-- Cíl: najít všechny páry
-- Pravidla: otočit 2 karty, pokud se shodují, vzít je
-- Výzva: pamatovat si, kde jsou karty
-
-#### 4. Vlastní návrh (10 minut)
-**Zadání:** Navrhněte jednoduchou hru s kostkou.
-- Určete cíl hry
-- Vymyslete pravidla
-- Popište, jak hráč vyhrává
-
-Děti pracují ve dvojicích, potom prezentují své nápady.
-
-### Reflexe
-- Co bylo nejtěžší na vymýšlení hry?
-- Která navržená hra se vám líbila nejvíc?
+### 4. Kdo všechno dělá na hrách? (5 min)
+**Vizuální ukázka:**
+- Ukaż screenshot z titulků nějaké velké hry (stovky jmen)
+- Vysvětli role: Designer, Programátor, Artist, Sound Designer
+- "Ale můžete dělat i sami všechno - jako indie vývojář!"
 
 ---
 
-## Hodina 3: Programování – základy (45 minut)
+## 👥 MOŽNOSTI ZAPOJENÍ DĚTÍ
+
+### Během ukázek her:
+- **"Jaké hry znáte vy?"** - burza nápadů, zapisuj na tabuli
+- **"Co se vám líbí na téhle hře?"** - ptej se během ukázek
+- **"Jak myslíte, že tohle funguje?"** - před každým odkrytím mechaniky
+- **Hlasování:** "Která hra se vám líbila nejvíc?" (zvedání rukou)
+
+### Diskuzní otázky:
+- "Kdybyste mohli vytvořit jakoukoliv hru, co by to bylo?"
+- "Která role při vývoji her vás láká nejvíc?"
+- "Myslíte, že je těžší udělat 2D nebo 3D hru?"
+
+### Pozorovací úkoly:
+- "Všimněte si, kolikrát ta postava poskočí, než spadne"
+- "Počítejte, kolik různých zvuků slyšíte"
+- "Sledujte, jak se mění světlo když postaví projde tmou"
+
+---
+
+## 💻 CO BY DĚTI MOHLY DĚLAT SAMY (po 10. hodině)
+
+**Pokud by Unity a účty fungovaly:**
+- Otevřít Unity Hub a vytvořit svůj první projekt
+- Projít si základní rozhraní Unity
+- Přidat jednoduchý 3D objekt do scény (krychle, koule)
+- Zmáčknout Play a sledovat scénu
+- Experimentovat se změnou barev objektů
+- Pustit si některý z Unity tutoriálů pro začátečníky
+
+**Alternativně v Roblox Studio:**
+- Vytvořit si prázdný Baseplate
+- Přidat základní objekty (parts)
+- Zkusit změnit jejich vlastnosti (barva, velikost, materiál)
+- Otestovat svůj "level" tlačítkem Play
+
+---
+
+### Domácí "úkol" (dobrovolný)
+- Najdi doma hru a zkus určit, ve kterém enginu mohla být vytvořena
+- Podívej se na YouTube na nějaké "game development timelapse" video
+- Zahraj si Roblox nebo Minecraft a zkus si všimnout, jak fungují různé mechaniky
+
+---
+
+## Hodina 2: Herní design - co dělá hru zábavnou? (45 minut)
 
 ### Cíle hodiny
-- Pochopit, co je programování
-- Naučit se základní logické myšlení
-- Vyzkoušet si jednoduché algoritmy bez počítače
+- Ukázat dětem, jak funguje herní design
+- Analyzovat konkrétní hry a jejich mechaniky
+- Inspirovat je k přemýšlení o vlastních nápadech
 
 ### Materiály
-- Papír a tužky
-- Karty s příkazy
-- Bludiště vytištěné na papír
+- Roblox/Minecraft na projektu
+- Ukázky různých her
+- Papír a tužky pro rychlé skici dětí
 
-### Průběh hodiny
+---
 
-#### 1. Co je programování? (10 minut)
-**Definice:** Programování je způsob, jak říct počítači, co má dělat.
+## 🎮 CO DAVID UKAZUJE (DEMONSTRACE)
 
-**Analogie s recepty:**
-- Recept na palačinky = program
-- Kuchař = počítač
-- Ingredience = data
-- Hotové palačinky = výsledek
+### 1. Anatomie skvělé hry (10 min)
+**COOL MOMENT:** Rozebereš známou hru na živé ukázce
 
-**Ukázka:** Děti "naprogramují" spolužáka, aby došel ke dveřím (pouze příkazy: krok vpřed, otočit se vlevo, otočit se vpravo).
+**Minecraft jako příklad:**
+- "Co dělá Minecraft zábavným?"
+- **Cíl:** Přežít, stavět, objevovat (hráč si vybírá!)
+- **Výzva:** Nepřátelé v noci, hlad, hledání materiálů
+- **Odměna:** Nové blocky, lepší nástroje, krásné stavby
+- **Svoboda:** Můžeš dělat téměř cokoliv
 
-#### 2. Algoritmy a logické myšlení (15 minut)
-**Co je algoritmus:** Postupný návod, jak něco udělat.
+**Live ukázka v Minecraft:**
+- "Podívejte - teď půjdu do jeskyně. Co mě může potkat?" (napětí!)
+- "Našel jsem diamanty! To je odměna za risk!" (uspokojení)
+- "Teď můžu udělat silnější nástroje" (progrese)
 
-**Příklady algoritmů z běžného života:**
-- Návod na čištění zubů
-- Recept na sendvič
-- Pravidla hry
+### 2. Základní herní mechaniky - živé příklady (20 min)
+**David hraje a ukazuje mechaniky v reálném čase:**
 
-**Aktivita - "Robot":**
-Jeden žák je robot, druhý programátor. Robot musí pouze poslouchat přesné příkazy a dojít k cíli.
+**Skákání a parkour (Roblox obby):**
+- Ukaž platformer
+- "Vidíte? Každý skok musí být přesný - to je výzva!"
+- "Když spadnu, začínám od checkpointu - to je spravedlivé"
 
-#### 3. Podmínky a opakování (10 minut)
-**Podmínky (KDYŽ-PAK):**
-- KDYŽ je semáfor červený, PAK stůj
-- KDYŽ vidíš překážku, PAK skoč
+**Sbírání a upgrade (RPG hra v Roblox):**
+- "Sbírám mince → kupuji lepší zbraň → jsem silnější"
+- "To je herní smyčka - core loop"
+- Nakresli na tabuli: Akce → Odměna → Upgrade → Opakuj
 
-**Opakování (OPAKUJ):**
-- OPAKUJ "krok vpřed" 5×
-- OPAKUJ dokud nedojdeš ke zdi
+**Puzzle mechaniky:**
+- Ukaž jednoduchou puzzle hru (např. Roblox escape room)
+- "Musím najít klíč → otevřít dveře → další místnost"
+- "Každá hádanka má logiku, musí být řešitelná!"
 
-**Aktivita:** Děti napíšou algoritmus pro projití bludištěm s použitím podmínek.
+**COOL MOMENT - Změna pravidel:**
+- V nějaké sandboxové hře změň pravidla (napiš gravitaci, rychlost)
+- "Vidíte? Změnil jsem jen jedno číslo a hra je úplně jiná!"
+- "To je krása game designu - pravidla tvoří zážitek"
 
-#### 4. Jednoduchá hra s příkazy (10 minut)
-**Hra "Programátor a Robot":**
-- Každý tým dostane bludiště
-- Musí napsat seznam příkazů pro robota
-- Zkouší, jestli algoritmus funguje
+### 3. Co dělá hru frustrující vs. zábavnou? (10 min)
+**Porovnání na ukázkách:**
 
-**Příkazy:**
-- KROK_VPŘED
-- OTOČIT_VLEVO
-- OTOČIT_VPRAVO
-- OPAKUJ X× { příkazy }
-- KDYŽ_JE_ZEĎ_VPŘED PAK { příkazy }
+**Špatný design (ukázat příklad):**
+- Unfair smrt (nepřátel není vidět)
+- Žádné checkpointy
+- Nejasný cíl
 
-### Domácí úkol
-Napište algoritmus (postup) pro nějakou každodenní činnost (např. příprava snídaně).
+**Dobrý design:**
+- Hráč ví, co má dělat
+- Když zemře, je to jeho chyba
+- Postupně se učí
+
+**Ukaž Flow diagram:**
+```
+     Těžké ↑        Anxiety (stres)
+             |      ╱
+             |    ╱
+             |  ╱ FLOW (zábava!)
+             | ╱
+Snadné     ├─────────→ Dovednost
+             Nudné
+```
+
+### 4. Rychlý brainstorming - "Kdybyste dělali hru..." (5 min)
+- David rychle načrtne 2-3 nápady dětí na tabuli
+- "To je super nápad! A co by bylo cílem?"
+- "A jak by to bylo těžké? Co by hráč musel umět?"
+
+---
+
+## 👥 MOŽNOSTI ZAPOJENÍ DĚTÍ
+
+### Během ukázek:
+- **"Jaká je vaše oblíbená mechanika ve hrách?"**
+- **"Kdy vás nějaká hra naštavala? Proč?"**
+- **"Co vás motivuje hrát dál?"**
+- Děti hlasují rukami: "Máte raději těžké nebo lehké hry?"
+
+### Pozorovací úkoly:
+- "Počkejte si, kolikrát během ukázky umřu"
+- "Zkuste hádat, co mám dělat dřív, než to udělám"
+- "Všimněte si, kdy hra dává odměny (zvuk, efekt, body)"
+
+### Kreativní zapojení:
+- Děti můžou na papír rychle načrtnout svůj nápad na hru
+- Můžou zvednutím ruky navrhnout mechaniku: "A co kdyby..."
+- Mohou říct své nápady na vylepšení hry, kterou David ukazuje
+
+---
+
+## 💻 CO BY DĚTI MOHLY DĚLAT SAMY (po 10. hodině)
+
+**V Roblox Studio:**
+- Zkusit vytvořit jednoduchý parkour (platformy ve vzduchu)
+- Přidat checkpoint (spawn location)
+- Testovat obtížnost - je příliš lehké/těžké?
+- Přidat sbíratelné objekty (coins)
+
+**V Unity:**
+- Vytvořit prototyp jednoduché mechaniky
+- Přidat objekty a experimentovat s fyzikou
+- Nastavit základní pravidla (co se stane při kolizi)
+
+**Design dokument:**
+- Napsat stránku o své vysněné hře
+- Nakreslit hlavní mechaniku
+- Popsat, co hru dělá zábavnou
+
+---
+
+### Domácí "úkol" (dobrovolný)
+- Zahraj si nějakou hru a snaž se identifikovat všechny mechaniky
+- Nakresli "herní smyčku" své oblíbené hry (co děláš → co dostaneš → co ti to umožní)
+- Vymysli jednu cool herní mechaniku, kterou jsi nikde neviděl
+
+---
+
+## Hodina 3: Programování bez počítače - logické myšlení (45 minut)
+
+### Cíle hodiny
+- Ukázat, co je programování zábavnou formou
+- Demonstrovat základní logické konstrukce
+- Zapojit děti do "živého programování"
+
+### Materiály
+- Projektor/tabule
+- Vytištěné příkazy na karty (velké, viditelné)
+- Bludiště nakreslené na podlaze (křídou/páskou) nebo na tabuli
+
+---
+
+## 🎮 CO DAVID UKAZUJE (DEMONSTRACE)
+
+### 1. Co je programování? - Živá ukázka (10 min)
+**COOL MOMENT: "Člověk-robot"**
+
+David vybere dobrovolníka:
+- "Ty jsi teď robot. Můžeš udělat jen co ti řeknu - PŘESNĚ!"
+- "KROK VPŘED" → dítě udělá krok
+- "OTOČ SE VLEVO" → otočí se
+- "Teď tě naprogramuju, abys došel ke dveřím!"
+
+**Ukázka problémů:**
+- David záměrně dá špatný příkaz → robot udělá něco divného
+- "Vidíte? Robot dělá přesně co řeknu, ne co myslím!"
+- "Tak fungují počítače - musíte být přesní!"
+
+**Analogie s receptem:**
+```
+PROGRAM: Udělej sendvič
+1. Vezmi chleba (2 plátky)
+2. Dej na něj sýr
+3. Přilož druhý plátek
+4. HOTOVO!
+```
+"Kdybyste zapomněli krok 1, dával byste sýr na stůl!" 😄
+
+### 2. Algoritmy - postupné příkazy (15 min)
+**David programuje "lidského robota" před dětmi:**
+
+**Jednoduchý algoritmus:**
+```
+1. KROK_VPŘED
+2. KROK_VPŘED
+3. OTOC_SE_VPRAVO
+4. KROK_VPŘED
+5. CÍL!
+```
+
+**Ukázka smyčky (opakování):**
+```
+OPAKUJ 5×:
+  KROK_VPŘED
+```
+"Vidíte? Místo 5 příkazů jeden! Tohle šetří čas."
+
+**COOL MOMENT - Bludiště:**
+- Na zemi/tabuli nakresli bludiště
+- Vyber dobrovolníka jako robota
+- Děti společně volají příkazy
+- David je zapisuje na tabuli
+- "Robot" je vykonává jeden po druhém
+
+### 3. Podmínky - "KDYŽ-PAK" (15 min)
+**Živá ukázka podmínek:**
+
+David jako robot:
+```
+KDYŽ vidím zeď:
+  OTOČ SE
+JINAK:
+  JDI VPŘED
+```
+
+**Interaktivní ukázka:**
+- David jde po místnosti
+- Kdykoliv narazí na překážku (židle, stůl), otočí se
+- "To je podmínka! Robot se rozhoduje podle situace!"
+
+**COOL MOMENT - Semafor:**
+```
+KDYŽ je světlo ČERVENÁ:
+  STŮJ
+KDYŽ je světlo ŽLUTÁ:
+  PŘIPRAV SE
+KDYŽ je světlo ZELENÁ:
+  JDI
+```
+David ukáže barevné kartičky a dítě reaguje
+
+### 4. Spojení všeho dohromady (5 min)
+**Pokročilý algoritmus:**
+```
+OPAKUJ dokud nejsi v cíli:
+  KDYŽ je vpřed zeď:
+    OTOC_SE_VPRAVO
+  JINAK:
+    KROK_VPŘED
+```
+
+"Tohle je opravdový program! Smyčka + podmínka!"
+
+---
+
+## 👥 MOŽNOSTI ZAPOJENÍ DĚTÍ
+
+### Aktivní zapojení:
+- **Dobrovolníci jako "roboti"** - vykonávají příkazy
+- **"Programátoři"** - děti volají příkazy společně
+- **Debuggeři** - "Počkat, tohle nebude fungovat! Tady je zeď!"
+
+### Společné aktivity:
+- Děti hlasují, jaký příkaz má robot udělat
+- Dávají návrhy: "Zkus se otočit doleva!"
+- Předpovídají: "Co se stane, když..."
+
+### Práce s papírem:
+- Děti můžou na papír psát posloupnost příkazů
+- Můžou nakreslit bludiště a napsat algoritmus
+- Můžou vytvořit vlastní "příkazové karty"
+
+### Soutěž (pokud čas):
+- Rozdělit třídu na 2 týmy
+- Každý tým napíše algoritmus pro bludiště
+- David testuje oba → který funguje?
+
+---
+
+## 💻 CO BY DĚTI MOHLY DĚLAT SAMY (po 10. hodině)
+
+**Scratch (scratch.mit.edu):**
+- Vizuální programování - skládání bloků jako LEGO
+- Vytvořit animaci postavy, která se pohybuje
+- Naprogramovat jednoduchý příběh nebo hru
+- Sdílet projekty online
+
+**Roblox Studio scripting:**
+- Základy Lua programování
+- Vytvořit skript, který mění barvu objektu
+- Naprogramovat teleport při dotyku
+- Vytvořit jednoduchý obby s checkpointy
+
+**Code.org nebo Kód do škol:**
+- Interaktivní programovací úlohy
+- Hry jako "Hour of Code"
+- Postupné učení konceptů
+
+**Minecraft s mody (např. ComputerCraft):**
+- Programování robotů v Minecraftu
+- Lua skripty pro automatizaci
+
+---
+
+### Domácí "úkol" (dobrovolný)
+- Napiš algoritmus pro něco, co děláš každý den (oblékání, čištění zubů)
+- Nakresli bludiště a napiš příkazy, jak jím projít
+- Podívej se na Scratch.mit.edu a zkus vytvořit animaci
+- Najdi v nějaké hře "NPC" (non-player character) a zkus hádat, jak je naprogramovaný
 
 ---
 

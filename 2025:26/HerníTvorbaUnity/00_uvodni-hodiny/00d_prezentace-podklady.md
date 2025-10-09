@@ -9,22 +9,25 @@
 - **Lektor**: [Jméno]
 
 ### Slide 2: Cíle hodiny
-- Analyzovat vybrané hry a pochopit jejich mechaniky
-- Porovnat přístupy: Game as Product / Service / Platform
-- Vidět rozdíly mezi Unity, Robloxem a webem
-- **Pochopit herní business a pozice v gamingu**
+- Společně analyzovat vybrané hry a diskutovat o mechanikách
+- Pochopit business modely: Product / Service / Platform
+- Získat přehled o herním průmyslu a pozicích
+- Diskutovat o budoucnosti v herním odvětví
+- Připravit se na praktický vývoj v Unity
 
-### Slide 3: Rychlé hraní 2-3 kratších her (15-20 min)
-- **Hra 1**: [Název] - [Žánr]
-- **Hra 2**: [Název] - [Žánr]  
-- **Hra 3**: [Název] - [Žánr]
-- **Úkol**: Zaznamenat si mechaniky a dojmy
+### Slide 3: Společné hraní 2-3 her (15-20 min)
+- **Hra 1**: [Název] - [Žánr] (např. puzzle)
+- **Hra 2**: [Název] - [Žánr] (např. platformer)
+- **Hra 3**: [Název] - [Žánr] (např. idle game)
+- **Během hraní**: Všichni sledují, diskutují o mechanikách
+- **Reflexe**: Co dělá hru zábavnou?
 
-### Slide 4: Analýza mechanik a cílového publika (10-15 min)
+### Slide 4: Společná analýza her (10-15 min)
+- **Interaktivní diskuse**: Děti odpovídají na otázky
 - **Hlavní mechaniky**: Co dělá hru zábavnou?
 - **Cílové publikum**: Pro koho je hra určena?
-- **Žánr**: Jaký typ hry to je?
-- **Platforma**: PC, mobil, konzole?
+- **Žánr a platforma**: Klasifikace her
+- **Game feel**: Proč se hra dobře/špatně ovládá?
 
 ### Slide 5: Game as Product vs. Service vs. Platform
 - **Product**: Jednorázový nákup (Minecraft, Stardew Valley)
@@ -70,11 +73,12 @@
 - **QA**: Testování, bug reports
 - **Marketing**: PR, sociální sítě, reklamy
 
-### Slide 12: Debata: Co je nejdůležitější pro úspěch hry?
-- **Grafika vs. Gameplay**: Co je důležitější?
+### Slide 12: Interaktivní debata a hlasování
+- **Grafika vs. Gameplay**: Co je důležitější? (hlasování rukou)
 - **Marketing vs. Kvalita**: Který faktor rozhoduje?
 - **Inovace vs. Osvědčené mechaniky**: Riziko vs. jistota
-- **Hlasování a diskuse**
+- **Příklady z praxe**: Úspěchy a propadáky
+- **Reflexe**: Co by děti chtěly tvořit?
 
 ### Slide 13: Shrnutí: Jaké kroky nás čekají v Unity dál
 - **01**: Úvod do herní tvorby
@@ -83,12 +87,14 @@
 - **04**: Animace, zvuk, efekty
 - **Cesta k vlastní hře**
 
-### Slide 14: Domácí úkol
-- **Analýza oblíbené hry**:
-  - Žánr, hlavní mechaniky
-  - Cílovka, technologie/engine
-  - Proč je úspěšná?
-- **Bonus**: Jakou pozici v gamingu byste chtěli dělat?
+### Slide 14: Domácí úkol a příprava
+- **Analýza oblíbené hry** (písemně na papír):
+  - Název, žánr, platforma
+  - 3 hlavní mechaniky
+  - Proč je hra zábavná?
+  - V jakém enginu by se dala vytvořit?
+- **Přemýšlení**: Jakou pozici v gamingu byste chtěli?
+- **Příprava**: Příště začínáme praktický Unity vývoj!
 
 ### Slide 15: Otázky a odpovědi
 - Máte nějaké otázky k hernímu průmyslu?

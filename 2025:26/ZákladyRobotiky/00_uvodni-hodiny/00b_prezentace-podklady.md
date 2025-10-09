@@ -9,10 +9,11 @@
 - **Lektor**: [Jméno]
 
 ### Slide 2: Cíle hodiny
-- Pochopit redstone jako herní analogii elektrických obvodů
-- Rozlišit zdroje, vodiče, spotřebiče a logické prvky
-- Postavit jednoduché obvody
-- Pochopit analogie s reálnou elektrotechnikou
+- Vidět demonstraci redstone jako herní analogie elektrotechniky
+- Pochopit základní prvky: zdroje, vodiče, spotřebiče
+- Sledovat stavbu jednoduchých obvodů v Minecraftu
+- Diskutovat o analogiích s reálnou elektrotechnikou
+- Získat intuitivní pochopení logických obvodů
 
 ### Slide 3: Redstone vs. Elektrotechnika
 - **Redstone** = Elektřina v Minecraftu
@@ -40,17 +41,17 @@
 - **Dveře**: Otevírací mechanismus
 - **TNT**: Výbušnina (opatrně!)
 
-### Slide 7: Ukázky základních prvků (10 min)
-- **Páka → lampa**: Základní zapnutí
-- **Tlačítko → dveře**: Dočasné otevření
-- **Tlaková deska → alarm**: Detekce pohybu
-- **Praktická část**: Společné stavění
+### Slide 7: Demonstrace základních prvků (10 min)
+- **Lektor staví**: Páka → lampa (základní obvod)
+- **Lektor staví**: Tlačítko → dveře (dočasný signál)
+- **Lektor staví**: Tlaková deska → alarm (detekce)
+- **Děti navrhují**: Kde by se tyto principy hodily?
 
-### Slide 8: Stavba jednoduchých obvodů (15-20 min)
-- **Páka → lampa**: Základní obvod
-- **Tlačítko → dveře**: Spínací obvod
-- **Tlaková deska → alarm**: Detekční obvod
-- **Praktická část**: Postavit všechny tři
+### Slide 8: Live building session (15-20 min)
+- **Lektor staví všechny tři obvody postupně**
+- Děti sledují a komentují
+- **Interaktivní**: "Co myslíte, že se stane když...?"
+- **Experimenty**: Co se stane při kombinaci prvků?
 
 ### Slide 9: Repeater a zpoždění
 - **Repeater**: Posiluje signál
@@ -58,36 +59,39 @@
 - **Vedení signálu**: Na dlouhé vzdálenosti
 - **Praktická část**: Signál přes celou mapu
 
-### Slide 10: Vedení signálu (10 min)
-- **Redstone prach**: 15 bloků maximum
-- **Repeater**: Prodloužení signálu
-- **Redstone blok**: Vodič ve všech směrech
-- **Praktická část**: Dlouhý obvod
+### Slide 10: Vedení signálu - demonstrace (10 min)
+- **Demonstrace**: Signál slábne po 15 blocích
+- **Ukázka repeateru**: Jak posiluje signál
+- **Experiment**: Signál přes celou mapu
+- **Analogie**: Jako prodlužovací kabel v reálném světě
 
-### Slide 11: Logické brány - AND
-- **AND brána**: Oba vstupy musí být zapnuté
-- **Použití**: Bezpečnostní systémy
-- **Stavba**: Dva vstupy → jeden výstup
-- **Praktická část**: Postavit AND bránu
+### Slide 11: Logické brány - AND (demonstrace)
+- **Teorie**: Oba vstupy musí být zapnuté
+- **Pravdivostní tabulka**: 0+0=0, 0+1=0, 1+0=0, 1+1=1
+- **Lektor staví**: AND brána v Minecraftu
+- **Příklad použití**: Bezpečnostní systém (2 klíče)
 
-### Slide 12: Logické brány - OR
-- **OR brána**: Jeden nebo oba vstupy zapnuté
-- **Použití**: Více spínačů pro jeden výstup
-- **Stavba**: Dva vstupy → jeden výstup
-- **Praktická část**: Postavit OR bránu
+### Slide 12: Logické brány - OR (demonstrace)
+- **Teorie**: Jeden nebo oba vstupy zapnuté
+- **Pravdivostní tabulka**: 0+0=0, 0+1=1, 1+0=1, 1+1=1
+- **Lektor staví**: OR brána v Minecraftu
+- **Příklad použití**: Světlo ovládané z více míst
 
-### Slide 13: Reflexe a zápis analogií (5-10 min)
-- **Tabulka analogií**:
-  - Redstone torch = Baterie
-  - Redstone prach = Drát
+### Slide 13: Společná reflexe a diskuse (5-10 min)
+- **Společné vyplnění tabulky analogií**:
+  - Redstone torch = Baterie/zdroj energie
+  - Redstone prach = Drát/vodič
   - Páka = Spínač
-  - Lampa = Žárovka
-- **Praktická část**: Vyplnit tabulku
+  - Lampa = Žárovka/LED
+  - Repeater = Zesilovač signálu
+- **Diskuse**: Jaké další analogie vidíte?
 
 ### Slide 14: Domácí úkol
-- Postavit vlastní redstone mechanismus
-- Přinést screenshot
-- **Nápady**: Semafor, výtah, dveře s kódem
+- **Teoretický úkol**: Navrhnout na papír redstone mechanismus
+  - Nakreslit schéma (páky, vodiče, lampy)
+  - Popsat co by měl dělat
+- **Volitelně**: Postavit v Minecraftu a přinést screenshot
+- **Nápady**: Semafor, automatické dveře, alarm, tajný vchod
 
 ### Slide 15: Co nás čeká příště
 - **00c**: Roblox Circuit Maker 2 – vizuální obvody

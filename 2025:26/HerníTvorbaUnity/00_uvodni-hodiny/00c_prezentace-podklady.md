@@ -9,10 +9,11 @@
 - **Lektor**: [Jméno]
 
 ### Slide 2: Cíle hodiny
-- Ukázat rychlý vznik malé webové hry v prohlížeči
-- Pochopit vstup, vykreslení a jednoduchý stav hry
-- Porovnat web vs. Unity/Roblox
-- Vytvořit reakční hru v HTML/JS
+- Vidět demonstraci rychlého vzniku webové hry
+- Pochopit koncepty: vstup, vykreslení, stav hry
+- Porovnat výhody a nevýhody web vs. Unity/Roblox
+- Sledovat tvorbu reakční hry v HTML/JS
+- Získat přehled o webových herních technologiích
 
 ### Slide 3: Web vs. Unity/Roblox – kdy co použít?
 - **Web**: Rychlé prototypy, jednoduché hry, okamžitý přístup
@@ -48,14 +49,14 @@ function gameLoop() {
 }
 ```
 
-### Slide 7: Mini-hra: Reakční hra
+### Slide 7: Mini-hra: Reakční hra - design
 - **Cíl**: Změřit reakční čas hráče
 - **Mechanika**:
   - Tlačítko Start
-  - Náhodné zpoždění
-  - Změřit reakční čas
+  - Náhodné zpoždění (`setTimeout`)
+  - Změřit reakční čas (`Date.now()`)
   - Zobrazit skóre
-- **Čas**: 25-30 minut
+- **Demonstrace**: Lektor programuje live s vysvětlením
 
 ### Slide 8: Reakční hra - algoritmus
 1. Tlačítko "Start" → změnit na "Čekej..."
@@ -109,32 +110,35 @@ function startGame() {
 }
 ```
 
-### Slide 11: Rozšíření: Top 3 výsledky
-- Uložení nejlepších výsledků
-- Zobrazení leaderboardu
-- Jednoduchá grafika
-- **Čas**: 10 minut
+### Slide 11: Rozšíření: Top 3 výsledky - teorie
+- **LocalStorage API**: Ukládání dat v prohlížeči
+- Struktura dat pro leaderboard (array of objects)
+- Řazení výsledků (`.sort()`)
+- **Demonstrace**: Ukázka přidání leaderboardu
 
-### Slide 12: Praktická část - Reakční hra
-- Otevřít editor kódu
-- Vytvořit HTML/JS skeleton
-- Implementovat reakční hru
-- **Čas**: 20 minut
+### Slide 12: Live coding - Reakční hra
+- **Lektor programuje**: HTML struktura
+- Přidání CSS stylů
+- JavaScript logika krok po kroku
+- **Interaktivní**: Děti navrhují vylepšení
 
-### Slide 13: Praktická část - Rozšíření
-- Přidat top 3 výsledky
-- Vylepšit grafiku
-- Otestovat hru
-- **Čas**: 10 minut
+### Slide 13: Společné testování
+- **Dobrovolníci**: Zkusit hru na projekci
+- Srovnání reakčních časů
+- **Diskuse**: Co by se dalo vylepšit?
+- Nápady na další webové hry
 
-### Slide 14: Krátká reflexe
-- Co bylo nejtěžší?
-- Jaké možnosti nabízí web?
-- Kdy byste použili web vs. Unity?
-- **Čas**: 5 minut
+### Slide 14: Reflexe a porovnání platfo
+- **Diskuse**: Co bylo nejtěžší/nejzajímavější?
+- **Porovnání platforem**:
+  - Web: rychlé, dostupné, limitované
+  - Unity: výkonné, profesionální, složitější
+  - Roblox: sociální, jednoduché, limitované
+- Kdy použít kterou platformu?
 
 ### Slide 15: Domácí úkol a příště
-- **Domácí úkol**: Přidat skóre/časovač a poslat screenshot/link
-- **Příště**: 00d - Společné hraní a analýza her
-- Herní business a pozice v gamingu
-- Typy her a enginy
+- **Domácí úkol**: Navrhnout na papír vlastní webovou hru
+  - Mechaniky, UI layout, herní smyčka
+  - Nakreslit mockup rozhraní
+- **Volitelně**: Zkusit upravit ukázkovou hru doma
+- **Příště**: 00d - Společné hraní a analýza her, herní business

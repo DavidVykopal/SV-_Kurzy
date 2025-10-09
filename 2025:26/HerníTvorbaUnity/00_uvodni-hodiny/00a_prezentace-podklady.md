@@ -9,11 +9,11 @@
 - **Lektor**: [Jméno]
 
 ### Slide 2: Cíle hodiny
-- Přihlásit se do potřebných účtů (Unity, Roblox)
-- Nainstalovat Unity Hub a LTS verzi Unity
-- Připravit editor (VS Code/Rider + C# pluginy)
-- Otevřít Unity a Roblox Studio
-- Na závěr si krátce něco zahrát společně
+- Seznámit se s potřebnými účty a softwarovými nástroji
+- Pochopit ekosystém herního vývoje (Unity, editory, verzování)
+- Vidět demonstraci Unity Hub, Unity Editoru a Roblox Studia
+- Získat přehled o pracovním prostředí herního vývojáře
+- Na závěr společné hraní a diskuse o hrách
 
 ### Slide 3: Účty - checklist
 - **Google účet**: primární (SSO pro většinu služeb)
@@ -40,53 +40,54 @@
 - **Blender** (3D modelování)
 - **Minecraft: Java**
 
-### Slide 6: Přihlášení do účtů (7-10 min)
-- Unity ID (nebo školní účet)
-- Ověření přístupu k Hubu
-- Volitelně: Roblox účet
-- **Praktická část**: Společné přihlášení
+### Slide 6: Přihlášení do účtů - přehled (7-10 min)
+- Unity ID (nebo školní účet) - jak funguje SSO
+- Výhody jednotného přihlášení (Google SSO)
+- Důležitost GitHub účtu pro budoucí spolupráci
+- **Demonstrace lektora**: Proces přihlášení a vytvoření účtu
 
-### Slide 7: Instalace Unity Hub
-- Stáhnout Unity Hub installer
-- Spustit instalaci
-- Přihlásit se pomocí Unity ID
-- **Praktická část**: Instalace krok za krokem
+### Slide 7: Unity Hub - architektura systému
+- Co je Unity Hub a proč ho používáme?
+- Správa verzí Unity (důležitost LTS verzí)
+- Centralizované řízení projektů
+- **Demonstrace lektora**: Ukázka Unity Hub rozhraní
 
-### Slide 8: Instalace Unity LTS
-- V Unity Hub: "Installs" → "Install Editor"
-- Vybrat Unity 6 LTS
-- Přidat moduly: Visual Studio, Android Build Support
-- **Praktická část**: Instalace Unity
+### Slide 8: Unity verze a moduly
+- Co znamená LTS (Long Term Support)?
+- Různé moduly: Android, iOS, WebGL, Console
+- Jak vybrat správnou verzi pro projekt
+- **Demonstrace lektora**: Procházka instalačními možnostmi
 
-### Slide 9: Nastavení editoru
-- **VS Code/Rider** → rozšíření C# a Unity
-- C# Dev Kit pro VS Code
-- Unity rozšíření
-- **Praktická část**: Konfigurace editoru
+### Slide 9: IDE a editory kódu
+- **VS Code vs. Rider vs. Visual Studio** - porovnání
+- C# IntelliSense a autokompletace
+- Integrace Unity s editorem kódu
+- **Demonstrace lektora**: Ukázka debugování v IDE
 
-### Slide 10: První spuštění Unity
-- Unity: New Project (2D Core)
-- Ukázat Scene/Game view
-- Hierarchy/Inspector
-- Play/Stop tlačítka
-- **Praktická část**: První projekt
+### Slide 10: Unity Editor - orientace v prostředí
+- **Scene view vs. Game view** - rozdíly a použití
+- **Hierarchy** - stromová struktura objektů
+- **Inspector** - vlastnosti a komponenty
+- **Project** - správa assetů
+- **Demonstrace lektora**: Vytvoření jednoduchého projektu
 
-### Slide 11: Roblox Studio
-- Otevřít Roblox Studio
-- Ukázat Explorer/Properties
-- Základní orientace v prostředí
-- **Praktická část**: První template
+### Slide 11: Roblox Studio - alternativní platforma
+- **Lua programování** vs. C# v Unity
+- Vestavěný editor a okamžité testování
+- Multiplayer "out of the box"
+- **Demonstrace lektora**: Ukázka Roblox Studio rozhraní
 
-### Slide 12: Společné hraní (5 min)
-- Vybrat 1-2 jednoduché hry
-- Malý obby v Robloxu
-- Projít, co je na nich zábavné
-- **Praktická část**: Společné hraní
+### Slide 12: Společné hraní a analýza (10-15 min)
+- Vybrat 1-2 jednoduché hry (Roblox obby, Unity demo)
+- **Společné hraní**: Všichni hrají a sledují
+- **Diskuse**: Co je na hrách zábavné? Jaké mechaniky vidíme?
+- **Reflexe**: Jak by se to dělalo v Unity/Robloxu?
 
 ### Slide 13: Domácí úkol
-- Doma spustit Unity/Roblox
-- Udělat screenshot prvního projektu/obby
-- Přinést příště tip na hru k rozboru
+- **Volitelně**: Vytvořit si Unity ID účet doma
+- Zahrát si libovolnou hru a zamyslet se nad mechanikami
+- Přinést příště tip na hru k rozboru (žánr, co je na ní zajímavé)
+- **Poznámky**: Zapsat 3 věci, co jste se dnes naučili
 
 ### Slide 14: Co nás čeká příště
 - **00b**: Vibe coded – terminálové mini-hry

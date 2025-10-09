@@ -9,10 +9,11 @@
 - **Lektor**: [Jméno]
 
 ### Slide 2: Cíle hodiny
-- Zažít stavbu obvodů v interaktivní hře
-- Přenést principy do reality
-- Pochopit logické brány
-- Postavit řetězec s časováním
+- Vidět demonstraci stavby obvodů v Circuit Maker 2
+- Pochopit logické brány (AND, OR, NOT, XOR) teoreticky
+- Sledovat řešení úkolů s časováním a sekvencemi
+- Diskutovat o přechodu od her k reálným obvodům
+- Získat intuitivní pochopení digitální logiky
 
 ### Slide 3: Co je Circuit Maker 2?
 - **Roblox hra** pro stavbu obvodů
@@ -51,23 +52,24 @@
   - NOT 0 = 1
   - NOT 1 = 0
 
-### Slide 8: Tutorial a ovládání (10 min)
-- **Ovládání**: Myš pro umísťování komponent
-- **Připojování**: Kliknutí a tažení
-- **Testování**: Spuštění simulace
-- **Praktická část**: První obvod
+### Slide 8: Tutorial a ovládání - demonstrace (10 min)
+- **Lektor ukazuje ovládání**: Myš pro umísťování
+- **Demonstrace připojování**: Drag & drop vodičů
+- **Testování**: Jak spustit simulaci
+- **Interaktivní**: Děti navrhují zapojení
 
-### Slide 9: Úkol 1: Logická brána (10 min)
-- **Cíl**: Postavit AND bránu
+### Slide 9: Úkol 1: Logická brána - live demo (10 min)
+- **Lektor řeší**: Postavit AND bránu
 - **Vstupy**: 2 tlačítka
 - **Výstup**: LED (svítí jen když oba tlačítka)
-- **Praktická část**: Postavit a otestovat
+- **Společné testování**: Všechny kombinace vstupů
+- **Diskuse**: Kde se AND brána používá v reálném světě?
 
-### Slide 10: Úkol 2: Řetězec s časováním (10-15 min)
-- **Cíl**: Postavit sekvenční obvod
-- **Komponenty**: Tlačítko → zpoždění → LED
-- **Časování**: Různá zpoždění
-- **Praktická část**: Postavit řetězec
+### Slide 10: Úkol 2: Sekvenční obvod - live demo (10-15 min)
+- **Lektor řeší**: Postavit sekvenční obvod
+- **Komponenty**: Tlačítko → zpoždění → LED → zpoždění → LED
+- **Časování**: Různá zpoždění pro efekt "běžícího světla"
+- **Diskuse**: Kde vidíte sekvenční obvody? (semafory, vánoční osvětlení)
 
 ### Slide 11: Pokročilé obvody
 - **XOR brána**: Exkluzivní OR
@@ -75,11 +77,12 @@
 - **NOR brána**: NOT OR
 - **Kombinace**: Složitější logika
 
-### Slide 12: Reflexe: Kde je vstup, výstup, napájení? (5-10 min)
-- **Vstup**: Tlačítka, senzory
-- **Výstup**: LED, motory, zvuky
-- **Napájení**: Zdroj energie
-- **Logika**: Propojení komponent
+### Slide 12: Společná reflexe - anatomie obvodu (5-10 min)
+- **Interaktivní diskuse**: Děti identifikují části
+- **Vstup**: Tlačítka, senzory (jak člověk ovládá obvod)
+- **Výstup**: LED, motory, zvuky (co obvod dělá)
+- **Napájení**: Zdroj energie (odkud čerpá sílu)
+- **Logika**: Propojení komponent (jak to funguje)
 
 ### Slide 13: Přechod k realitě
 - **Redstone** → **Tinkercad** → **Arduino**
@@ -88,9 +91,12 @@
 - **Příprava** na Arduino
 
 ### Slide 14: Domácí úkol
-- Dokončit alespoň dva levely doma
-- Přinést poznámky, co bylo nejtěžší
-- **Tip**: Začít s jednoduchými bránami
+- **Teoretický úkol**: Nakreslit na papír obvod s logickou bránou
+  - Vybrat jednu bránu (AND/OR/XOR)
+  - Nakreslit schéma s 2 tlačítky a 1 LED
+  - Popsat jak funguje
+- **Volitelně**: Zahrát si Circuit Maker 2 a projít několik levelů
+- **Pozorování**: Co bylo nejtěžší na logických branách?
 
 ### Slide 15: Co nás čeká příště
 - **00d**: Tinkercad Circuits + Arduino sada
