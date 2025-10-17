@@ -1,9 +1,11 @@
 # NShare Dual-Port Setup Guide
 
 ## Overview
-Your NShare server now supports dual-port hosting with:
+Your NShare server now supports dual-port hosting with persistent storage:
 - **Port 8000**: Full read-write access (for teachers)
 - **Port 5555**: Read-only access (for students)
+- **Data Directory**: `~/.nshare_data/files` - All uploaded files persist here
+- **Notice Board**: `~/.nshare_data/notice_board.txt` - Messages persist between sessions
 
 ## Features
 
@@ -99,10 +101,45 @@ lsof -ti:8000 -ti:5555 | xargs kill -9
 ### Module Not Found
 Make sure you're running the script from the NShare directory or use the provided startup script.
 
+## Persistent Storage
+
+All your data is stored outside the codebase in `~/.nshare_data/`:
+
+### Files Directory
+- Location: `~/.nshare_data/files/`
+- All uploaded files are stored here
+- Files persist between server restarts
+- You can directly add/remove files in this directory
+
+### Notice Board
+- Location: `~/.nshare_data/notice_board.txt`
+- Plain text file storing the notice board message
+- Automatically loaded when server starts
+- Automatically saved when you edit via the web interface
+
+### Managing Data
+
+**View your data:**
+```bash
+ls -la ~/.nshare_data/files/
+cat ~/.nshare_data/notice_board.txt
+```
+
+**Backup your data:**
+```bash
+tar -czf nshare-backup.tar.gz ~/.nshare_data/
+```
+
+**Clear all data:**
+```bash
+rm -rf ~/.nshare_data/
+```
+
 ## Security Notes
 
 - Both ports share the same authentication token (if configured)
-- Read-only port prevents ALL write operations (uploads, edits)
+- Read-only port prevents ALL write operations (uploads, edits, deletes)
 - Notice board can only be edited from port 8000
+- Data persists in your home directory, protected by your user permissions
 
-Enjoy your dual-port file sharing system!
+Enjoy your dual-port file sharing system with persistent storage!

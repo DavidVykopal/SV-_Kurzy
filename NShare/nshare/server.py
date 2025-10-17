@@ -419,21 +419,30 @@ def extract_filename(disposition: str) -> Optional[str]:
     return None
 
 
-# Global notice board storage
-_notice_board_text = ""
+# Global notice board storage with file persistence
 _notice_board_lock = threading.Lock()
+_notice_board_file = Path.home() / ".nshare_data" / "notice_board.txt"
 
 
 def get_notice_board() -> str:
-    """Get the current notice board text."""
+    """Get the current notice board text from file."""
     with _notice_board_lock:
-        return _notice_board_text
+        try:
+            if _notice_board_file.exists():
+                return _notice_board_file.read_text(encoding="utf-8")
+            return ""
+        except Exception as e:
+            logging.error(f"Error reading notice board: {e}")
+            return ""
 
 
 def set_notice_board(text: str) -> None:
-    """Set the notice board text."""
+    """Set the notice board text and save to file."""
     with _notice_board_lock:
-        global _notice_board_text
-        _notice_board_text = text
+        try:
+            _notice_board_file.parent.mkdir(parents=True, exist_ok=True)
+            _notice_board_file.write_text(text, encoding="utf-8")
+        except Exception as e:
+            logging.error(f"Error saving notice board: {e}")
 
 
