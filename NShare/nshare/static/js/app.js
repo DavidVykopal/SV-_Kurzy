@@ -1,4 +1,18 @@
 document.addEventListener("DOMContentLoaded", () => {
+  // Copy button functionality for student URL
+  const copyUrlButtons = document.querySelectorAll(".btn-copy");
+  copyUrlButtons.forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const text = btn.getAttribute("data-copy-text");
+      if (!text) return;
+      navigator.clipboard?.writeText(text).then(() => {
+        const originalText = btn.textContent;
+        btn.textContent = "✓ Copied!";
+        setTimeout(() => (btn.textContent = originalText), 2000);
+      });
+    });
+  });
+
   // Existing copy button functionality
   const copyButtons = document.querySelectorAll("[data-copy]");
   copyButtons.forEach((btn) => {
@@ -51,7 +65,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         if (response.ok) {
           const data = await response.json();
-          display.innerHTML = data.text ? escapeHtml(data.text) : '<em>No notices</em>';
+          display.innerHTML = data.text ? linkifyUrls(data.text) : '<em>No notices</em>';
           display.style.display = "block";
           editor.style.display = "none";
           editBtn.style.display = "inline-flex";
@@ -69,6 +83,22 @@ document.addEventListener("DOMContentLoaded", () => {
     const div = document.createElement('div');
     div.textContent = text;
     return div.innerHTML;
+  }
+
+  function linkifyUrls(text) {
+    // Escape HTML first
+    const escaped = escapeHtml(text);
+
+    // URL regex pattern - matches http://, https://, and www. URLs
+    const urlPattern = /(https?:\/\/[^\s<>"]+|www\.[^\s<>"]+)/gi;
+
+    return escaped.replace(urlPattern, (url) => {
+      // Add http:// to www. URLs
+      const href = url.startsWith('http://') || url.startsWith('https://')
+        ? url
+        : 'http://' + url;
+      return `<a href="${href}" target="_blank" rel="noopener noreferrer">${url}</a>`;
+    });
   }
 
   // Delete file functionality

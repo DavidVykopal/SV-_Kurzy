@@ -16,7 +16,7 @@ from urllib.parse import parse_qs, unquote, urlparse
 from email.message import EmailMessage
 
 from .config import Config
-from .security import require_token
+from .security import require_token, require_basic_auth
 from .storage import Storage
 from .utils import get_lan_ip, sanitize_filename
 from . import views
@@ -28,6 +28,9 @@ class NShareRequestHandler(SimpleHTTPRequestHandler):
     def __init__(self, *args, **kwargs):
         self.config: Config = kwargs.pop("config")
         self.is_readonly: bool = kwargs.pop("is_readonly", False)
+        self.lan_ip: str = kwargs.pop("lan_ip", "")
+        self.current_port: int = kwargs.pop("current_port", 0)
+        self.readonly_port: int = kwargs.pop("readonly_port", 0)
         self.storage = Storage(self.config.root_path, hide_hidden=self.config.hide_hidden)
         self.static_root = (Path(__file__).resolve().parent / "static").resolve()
         super().__init__(*args, directory=str(self.config.root_path), **kwargs)
@@ -54,8 +57,26 @@ class NShareRequestHandler(SimpleHTTPRequestHandler):
         self.end_headers()
         self.wfile.write(body_bytes)
 
+    def _check_admin_auth(self):
+        """Check admin authentication for write port."""
+        if self.is_readonly:
+            return True  # No auth required for read-only port
+
+        # Apply basic auth for write port
+        auth_decorator = require_basic_auth("admin", "admin")
+
+        @auth_decorator
+        def dummy(handler):
+            return True
+
+        return dummy(self) is not None
+
     @require_token(lambda self: self.config.auth_token)
     def do_GET(self):
+        # Check admin auth for write port
+        if not self._check_admin_auth():
+            return
+
         target = Path(url_to_path(self._query_params().get("path", "")))
 
         if self.path.startswith("/static/"):
@@ -92,13 +113,20 @@ class NShareRequestHandler(SimpleHTTPRequestHandler):
             allow_upload_display,
             self.config.auth_token is not None,
             get_notice_board(),
-            not self.is_readonly
+            not self.is_readonly,
+            self.lan_ip,
+            self.current_port,
+            self.readonly_port
         )
         self._send_html(body)
 
     @require_token(lambda self: self.config.auth_token)
     def do_DELETE(self):
         """Handle DELETE requests for file/folder deletion."""
+        # Check admin auth for write port
+        if not self._check_admin_auth():
+            return
+
         if self.is_readonly:
             self.send_error(HTTPStatus.FORBIDDEN, "Read-only mode")
             return
@@ -131,6 +159,10 @@ class NShareRequestHandler(SimpleHTTPRequestHandler):
 
     @require_token(lambda self: self.config.auth_token)
     def do_POST(self):
+        # Check admin auth for write port
+        if not self._check_admin_auth():
+            return
+
         # Handle notice board updates (only for write port)
         if self.path.startswith("/api/notice"):
             if self.is_readonly:
@@ -297,6 +329,35 @@ class NShareRequestHandler(SimpleHTTPRequestHandler):
         return {k: v[0] for k, v in parse_qs(parsed.query, keep_blank_values=True).items() if v}
 
 
+def find_available_port(preferred_port: int, max_attempts: int = 10) -> int:
+    """Find an available port, starting with the preferred port.
+
+    Args:
+        preferred_port: The port to try first
+        max_attempts: Maximum number of ports to try
+
+    Returns:
+        An available port number
+
+    Raises:
+        OSError: If no available port is found
+    """
+    import socket
+
+    for offset in range(max_attempts):
+        port = preferred_port + offset
+        try:
+            # Try to bind to the port to check if it's available
+            with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+                s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+                s.bind(('0.0.0.0', port))
+                return port
+        except OSError:
+            continue
+
+    raise OSError(f"Could not find available port starting from {preferred_port}")
+
+
 def run_server(config: Config, readonly_port: Optional[int] = None):
     """Start the NShare server.
 
@@ -313,11 +374,29 @@ def run_server(config: Config, readonly_port: Optional[int] = None):
     servers = []
     lan_ip = get_lan_ip()
 
+    # Find available ports
+    requested_write_port = config.port
+    actual_write_port = find_available_port(requested_write_port)
+    actual_readonly_port = None
+    if readonly_port:
+        actual_readonly_port = find_available_port(readonly_port)
+
+    # Update config with actual port
+    config.port = actual_write_port
+
     # Start main read-write server
     def handler_rw(*args, **kwargs):
-        return NShareRequestHandler(*args, config=config, is_readonly=False, **kwargs)
+        return NShareRequestHandler(
+            *args,
+            config=config,
+            is_readonly=False,
+            lan_ip=lan_ip,
+            current_port=actual_write_port,
+            readonly_port=actual_readonly_port or 0,
+            **kwargs
+        )
 
-    server_address = (config.host, config.port)
+    server_address = (config.host, actual_write_port)
     httpd = ThreadingHTTPServer(server_address, handler_rw)
 
     thread = threading.Thread(target=httpd.serve_forever, daemon=True)
@@ -325,20 +404,35 @@ def run_server(config: Config, readonly_port: Optional[int] = None):
     threads.append(thread)
     servers.append(httpd)
 
+    if actual_write_port != requested_write_port:
+        logging.warning(
+            "Port %s was in use, using port %s instead",
+            requested_write_port,
+            actual_write_port,
+        )
+
     logging.info(
         "Serving (READ-WRITE) on http://%s:%s (LAN: http://%s:%s)",
         config.host,
-        config.port,
+        actual_write_port,
         lan_ip,
-        config.port,
+        actual_write_port,
     )
 
     # Start read-only server if requested
-    if readonly_port:
+    if readonly_port and actual_readonly_port:
         def handler_ro(*args, **kwargs):
-            return NShareRequestHandler(*args, config=config, is_readonly=True, **kwargs)
+            return NShareRequestHandler(
+                *args,
+                config=config,
+                is_readonly=True,
+                lan_ip=lan_ip,
+                current_port=actual_readonly_port,
+                readonly_port=0,  # Read-only port doesn't need to show connection info
+                **kwargs
+            )
 
-        readonly_address = (config.host, readonly_port)
+        readonly_address = (config.host, actual_readonly_port)
         httpd_ro = ThreadingHTTPServer(readonly_address, handler_ro)
 
         thread_ro = threading.Thread(target=httpd_ro.serve_forever, daemon=True)
@@ -346,12 +440,19 @@ def run_server(config: Config, readonly_port: Optional[int] = None):
         threads.append(thread_ro)
         servers.append(httpd_ro)
 
+        if actual_readonly_port != readonly_port:
+            logging.warning(
+                "Port %s was in use, using port %s instead",
+                readonly_port,
+                actual_readonly_port,
+            )
+
         logging.info(
             "Serving (READ-ONLY) on http://%s:%s (LAN: http://%s:%s)",
             config.host,
-            readonly_port,
+            actual_readonly_port,
             lan_ip,
-            readonly_port,
+            actual_readonly_port,
         )
 
     return threads, servers
