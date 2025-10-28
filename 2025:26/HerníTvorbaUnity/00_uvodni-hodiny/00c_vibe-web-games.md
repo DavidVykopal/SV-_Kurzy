@@ -1,33 +1,32 @@
-# 00c: Vibe coded – webové mini‑hry (říjen)
+# 00c: Vibe coding – ukázka HTML5 + Blockly Games (JS základy)
 
 ## Cíle hodiny
-- Ukázat rychlý vznik malé webové hry v prohlížeči.
-- Pochopit vstup, vykreslení a jednoduchý stav hry.
+- Vidět krátkou ukázku tvorby HTML5 mini‑hry (jen demonstrace).
+- Procvičit základní programovací logiku přes Blockly Games.
+- Plynule navázat na JavaScript pojmy: sekvence, podmínky, cykly, funkce.
 
 ## Materiály
-- Prohlížeč a editor kódu.
-- Lokální HTML/JS šablona (připravená dopředu).
+- Prohlížeč (Chrome/Edge) pro všechny žáky.
+- Odkaz: [Blockly Games](https://blockly.games/)
+- Lektor: připravená mikro‑ukázka HTML/JS (canvas + `requestAnimationFrame`).
 
 ## Před hodinou (příprava lektora)
-- Připravit jednoduchý HTML/JS skeleton s plátnem (canvas) a smyčkou `requestAnimationFrame`.
-- **Pro Minecraft showcase:**
-  - Připravit Minecraft projekt z workshopu
-  - Nastavit lokální server pro multiplayer
-  - Otestovat připojení více zařízení na stejné síti
-  - Připravit krátkou prezentaci projektu (co dělá, jak funguje)
+- Připravit jednoduchý HTML/JS skeleton s plátnem a smyčkou `requestAnimationFrame`.
+- Otevřít [Blockly Games – Maze](https://blockly.games/maze) a [Bird](https://blockly.games/bird) na projektoru.
+- Zkontrolovat, že školní síť dovolí načíst web.
 
 ## Průběh hodiny (45–60 min)
-1. Úvod: Web vs. Unity/Roblox – kdy co použít (5 min)
-2. **Showcase: Minecraft projekt z workshopu** (10–15 min)
-   - Ukázka vlastního Minecraft projektu
-   - Spuštění na lokální síti pro multiplayer
-   - Demonstrace možností webových her
-3. Mini‑hra: Reakční hra (25–30 min)
-   - Tlačítko Start, náhodné zpoždění, změřit reakční čas, zobrazit skóre.
-4. Rozšíření: Top 3 výsledky, jednoduchá grafika (10 min)
-5. Krátká reflexe (5 min)
+1. Úvod a cíle (2 min)
+2. Vibe coding – ukázka HTML5 mini‑hry (jen lektor) (5–10 min)
+   - krátce: vstup, stav, vykreslení; bez samostatné práce žáků
+3. Blockly Games – JS základy (30–40 min)
+   - Start: Maze level 1–7, kdo stíhá → 8–10
+   - Pokročilejší pokračují na Bird 1–5, případně Turtle 1–5
+   - Důraz: sekvence, cykly `repeat`, podmínky `if`, optimalizace řešení
+   - Varianta: dvojice (pair programming)
+4. Reflexe a sdílení řešení (3–5 min)
 
 ## Domácí úkol
-- Přidat skóre/časovač a poslat screenshot/link.
-
+- Dokončit rozdělané levely (Maze/Bird), poslat screenshot nejlepšího řešení.
+- Volitelně: zapnout zobrazení JavaScriptu v Blockly Games a opsat krátký úryvek do sešitu.
 
