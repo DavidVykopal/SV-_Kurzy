@@ -1,0 +1,15 @@
+# Node / Wrangler artifacts
+cloudflare/node_modules/
+cloudflare/.wrangler/
+cloudflare/package-lock.json
+
+# Wrangler logs
+*.wrangler/logs/
+
+# Local environment files
+.env
+.env.*
+
+# OS metadata
+.DS_Store
+Thumbs.db

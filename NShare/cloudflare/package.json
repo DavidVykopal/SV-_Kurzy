@@ -1,0 +1,16 @@
+{
+  "name": "cloudflare",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler pages dev ./public",
+    "deploy": "wrangler pages deploy ./public --project-name=nshare-pages"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "wrangler": "^4.45.1"
+  }
+}

@@ -1,0 +1,8 @@
+name = "nshare-pages"
+compatibility_date = "2024-11-01"
+pages_build_output_dir = "public"
+
+[[r2_buckets]]
+binding = "FILES"
+bucket_name = "nshare-files"
+preview_bucket_name = "nshare-files-preview"
