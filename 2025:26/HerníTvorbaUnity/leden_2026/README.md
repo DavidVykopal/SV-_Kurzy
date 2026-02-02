@@ -4,8 +4,13 @@ Tato složka obsahuje hodiny kurzu Herní Tvorba Unity probíhající v lednu 20
 
 ## Hodiny
 
-- **7. ledna 2026 (středa)** - [2026-01-07_streda.md](./2026-01-07_streda.md) - Tvorba herních assetů - Teorie všeho + 2D grafika
-- **14. ledna 2026 (středa)** - [2026-01-14_streda.md](./2026-01-14_streda.md) - Tvorba herních assetů - 3D grafika
+| Datum | Stav | Téma |
+|-------|------|------|
+| 7.1.2026 | ✅ | Tvorba herních assetů - Teorie všeho + 2D grafika |
+| 14.1.2026 | ✅ | Tvorba herních assetů - 3D grafika |
+| 21.1.2026 | ❌ | *Hodina se nekonala - dovolená* |
+| 28.1.2026 | ❌ | *Hodina se nekonala - dovolená* |
 
-*Poznámka: Hodiny 21. a 28. ledna jsou zrušeny (dovolená lektora).*
+## Poznámka
+- Výuka pokračuje od 4. února 2026 instalací Unity
 
