@@ -28,3 +28,14 @@ Objev svět herního vývoje a staň se tvůrcem her v prostředí Unity! Nauč�
 - Fork client pro vizuální Git interface
 - Profesionální workflow: Pull → Code → Commit → Push
 - Práce s branches při finálním projektu
+
+## 🤖 AI nástroje pro programování
+
+Studenti mohou využívat AI jako pomocníka při programování. Podrobný přehled nástrojů a pravidel:
+
+📄 **[AI_NASTROJE_PRO_PROGRAMOVANI.md](../AI_NASTROJE_PRO_PROGRAMOVANI.md)**
+
+**Doporučené free nástroje:**
+- **Phind** (phind.com) - bez přihlášení, zaměřený na kód
+- **Mistral** (chat.mistral.ai) - bez přihlášení
+- **Claude/ChatGPT** - s Google přihlášením

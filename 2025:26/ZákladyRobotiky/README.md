@@ -12,3 +12,14 @@ Vydej se do světa robotů a elektrotechniky! Kurz je zaměřen na teorii a poro
 21–27 | Návrh ročníkového projektu  
 28–32 | Doladění, testování, dokumentace  
 33–35 | Prezentace a showcase
+
+## 🤖 AI nástroje pro programování
+
+Studenti mohou využívat AI jako pomocníka při programování. Podrobný přehled nástrojů a pravidel:
+
+📄 **[AI_NASTROJE_PRO_PROGRAMOVANI.md](../AI_NASTROJE_PRO_PROGRAMOVANI.md)**
+
+**Doporučené free nástroje:**
+- **Phind** (phind.com) - bez přihlášení, zaměřený na kód
+- **Mistral** (chat.mistral.ai) - bez přihlášení
+- **Claude/ChatGPT** - s Google přihlášením
